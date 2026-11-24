@@ -1,4 +1,4 @@
-FROM docker.io/libary/python:3.11-slim
+FROM docker.io/library/python:3.11-slim
 WORKDIR /app
 COPY calculator.py .
 COPY math_exam.py .
